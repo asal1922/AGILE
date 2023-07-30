@@ -429,6 +429,15 @@ html{
             font-size: 2rem;
             display: none;
           }
+          .X{
+            display: none;
+            position: absolute;
+            left: 84%;
+            top: 2%;
+            font-weight: bold;
+            font-size: 28px;
+        
+          }
            .header-content-left{
 flex-basis: 50%;
            }
@@ -525,6 +534,10 @@ flex-wrap: wrap;
                 .principles-list2 {
                     margin-left: 0;
                 }
+                .principles-list {
+                  margin-bottom: 4rem;
+                  margin-top: 1rem;
+              }
             }
 
                 @media screen and (max-width: 768px) {
@@ -534,6 +547,7 @@ flex-wrap: wrap;
                     }
                     .header-icon{
                         display: inline-block;
+                        margin: 1rem;
                     }
                     .menu{
                         position: fixed;
@@ -545,6 +559,15 @@ flex-wrap: wrap;
                         background-color: rgb(72, 80, 247);
                         transition: 0.3s all;
                       }
+                      .principles-list,.principles-list2{
+                        width: 12rem;
+                        margin-bottom: 2rem;
+                        height: 12rem;
+                      
+                      }
+                     .principles-list2{
+                      margin-top: 3rem;
+                     }
                       .menu-item{
                         margin-bottom: 2rem;
                         font-size: 1.2rem;
@@ -554,11 +577,17 @@ flex-wrap: wrap;
                         width: 55%;
                         margin-left: 6rem;
                     }
+                    .portfolio-img {
+                      margin-left: 3rem;
+                    }
                   }
                  
                 @media screen and(max-width: 576px){
                     .container{
                         max-width: 100%;
                         
+                    }
+                    .portfolio-img {
+                      margin-left: 3rem;
                     }
                     }
